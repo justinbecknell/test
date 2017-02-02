@@ -7,8 +7,12 @@ plot(y~x,pch=16,col="#4286f450")
 
 ##adding a line to try again
 
-z<-runif(10000)
+z<-rnorm(10000,0,1)
 
-### still trying to figure this out
+### okay, I think this is working
+
+library(scatterplot3d)
+
+scatterplot3d(x,y,z, main="wow",color="#4286f450",pch=16)
 
 
