@@ -13,6 +13,6 @@ z<-rnorm(10000,0,1)
 
 library(scatterplot3d)
 
-scatterplot3d(x,y,z, main="wow",color="#4286f450",pch=16)
+scatterplot3d(x,y,z, main="wow",color="#4286f420",pch=16) #3d plot with 20% blue dots
 
 
