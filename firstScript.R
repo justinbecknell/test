@@ -15,4 +15,5 @@ library(scatterplot3d)
 
 scatterplot3d(x,y,z, main="wow",color="#4286f420",pch=16) #3d plot with 20% blue dots
 
+##these are some more changes
 
